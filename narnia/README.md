@@ -37,15 +37,15 @@ ssh narnia0@narnia.labs.overthewire.org -p 2226
 
 | Level | Writeup |
 |------:|---------|
-| 0 → 1 | [🔒 Not yet written](level00.md) |
-| 1 → 2 | [🔒 Not yet written](level01.md) |
-| 2 → 3 | [🔒 Not yet written](level02.md) |
-| 3 → 4 | [🔒 Not yet written](level03.md) |
-| 4 → 5 | [🔒 Not yet written](level04.md) |
-| 5 → 6 | [🔒 Not yet written](level05.md) |
-| 6 → 7 | [🔒 Not yet written](level06.md) |
-| 7 → 8 | [🔒 Not yet written](level07.md) |
-| 8 → 9 | [🔒 Not yet written](level08.md) |
+| 0 → 1 | ✅ [4-byte overflow hits `val` → `0xdeadbeef`](level00.md) |
+| 1 → 2 | ✅ [`EGG` env var executed as function pointer](level01.md) |
+| 2 → 3 | ✅ [Stack overflow + NOP sled + shellcode](level02.md) |
+| 3 → 4 | ✅ [Adjacent buffer overflow + symlink write](level03.md) |
+| 4 → 5 | ✅ [Same as level 2 but with bigger buffer & scrubbed envs](level04.md) |
+| 5 → 6 | ✅ [Format string `%n` writes 500 to `i`](level05.md) |
+| 6 → 7 | ✅ [Function pointer overwritten with `system` + `"sh;"`](level06.md) |
+| 7 → 8 | ✅ [Format string `%n` overwrites `ptrf` → `hackedfunction`](level07.md) |
+| 8 → 9 | ✅ [Overflow while preserving a live pointer](level08.md) |
 
 ## Disclaimer
 
