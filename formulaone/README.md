@@ -39,14 +39,14 @@ The exact number of levels isn't prominently advertised; verify on <https://over
 
 | Level | Writeup |
 |------:|---------|
-| 0 → 1 | [🔒 Not yet written](level00.md) |
-| 1 → 2 | [🔒 Not yet written](level01.md) |
-| 2 → 3 | [🔒 Not yet written](level02.md) |
-| 3 → 4 | [🔒 Not yet written](level03.md) |
-| 4 → 5 | [🔒 Not yet written](level04.md) |
-| 5 → 6 | [🔒 Not yet written](level05.md) |
+| 0 → 1 | ✅ [Byte-by-byte timing side channel](level00.md) |
+| 1 → 2 | 🔒 [Not yet written](level01.md) |
+| 2 → 3 | 🔒 [Not yet written](level02.md) |
+| 3 → 4 | 🔒 [Not yet written](level03.md) |
+| 4 → 5 | 🔒 [Not yet written](level04.md) |
+| 5 → 6 | 🔒 [Not yet written](level05.md) |
 
-> Note: This index is a best guess at the level range. Confirm against the live OTW page and adjust the table as you go.
+> **Coverage note:** Probing the OTW level pages confirms FormulaOne has **7 levels** (formulaone0 through formulaone6, so 6 transitions — matches the table above). The only trusted external reference (avishai) covers **only level 0**. Levels 1–5 have no published writeup I could fetch from allowlisted sources.
 
 ## Disclaimer
 

@@ -36,14 +36,14 @@ ssh maze0@maze.labs.overthewire.org -p 2225
 
 | Level | Writeup |
 |------:|---------|
-| 0 → 1 | [🔒 Not yet written](level00.md) |
-| 1 → 2 | [🔒 Not yet written](level01.md) |
-| 2 → 3 | [🔒 Not yet written](level02.md) |
-| 3 → 4 | [🔒 Not yet written](level03.md) |
-| 4 → 5 | [🔒 Not yet written](level04.md) |
-| 5 → 6 | [🔒 Not yet written](level05.md) |
-| 6 → 7 | [🔒 Not yet written](level06.md) |
-| 7 → 8 | [🔒 Not yet written](level07.md) |
+| 0 → 1 | ✅ [TOCTOU race + symlink flip](level00.md) |
+| 1 → 2 | ✅ [`libc.so.4` hijack via custom `.so`](level01.md) |
+| 2 → 3 | ✅ [Stack overflow + `push/pop/call` redirector](level02.md) |
+| 3 → 4 | ✅ [Magic-value argv check (`0x1337c0de`)](level03.md) |
+| 4 → 5 | ✅ [Shebang-style interpreter → `setreuid` helper](level04.md) |
+| 5 → 6 | ✅ [Reverse-engineer an auth check](level05.md) |
+| 6 → 7 | ✅ [Forged `_IO_FILE` → `exit@plt` overwrite](level06.md) |
+| 7 → 8 | ✅ [Overflow with adjacent size field](level07.md) |
 
 ## Disclaimer
 

@@ -47,23 +47,25 @@ The exact level count for Drifter isn't always advertised on the front page — 
 
 | Level | Writeup |
 |------:|---------|
-| 0 → 1 | [🔒 Not yet written](level00.md) |
-| 1 → 2 | [🔒 Not yet written](level01.md) |
-| 2 → 3 | [🔒 Not yet written](level02.md) |
-| 3 → 4 | [🔒 Not yet written](level03.md) |
-| 4 → 5 | [🔒 Not yet written](level04.md) |
-| 5 → 6 | [🔒 Not yet written](level05.md) |
-| 6 → 7 | [🔒 Not yet written](level06.md) |
-| 7 → 8 | [🔒 Not yet written](level07.md) |
-| 8 → 9 | [🔒 Not yet written](level08.md) |
-| 9 → 10 | [🔒 Not yet written](level09.md) |
-| 10 → 11 | [🔒 Not yet written](level10.md) |
-| 11 → 12 | [🔒 Not yet written](level11.md) |
-| 12 → 13 | [🔒 Not yet written](level12.md) |
-| 13 → 14 | [🔒 Not yet written](level13.md) |
-| 14 → 15 | [🔒 Not yet written](level14.md) |
+| 0 → 1 | ✅ [RC4-encrypted syscall proxy, read `/flag`](level00.md) |
+| 1 → 2 | 🔒 [Not yet written](level01.md) |
+| 2 → 3 | 🔒 [Not yet written](level02.md) |
+| 3 → 4 | 🔒 [Not yet written](level03.md) |
+| 4 → 5 | 🔒 [Not yet written](level04.md) |
+| 5 → 6 | 🔒 [Not yet written — logic/math games (per OTW hint)](level05.md) |
+| 6 → 7 | 🔒 [Not yet written](level06.md) |
+| 7 → 8 | 🔒 [Not yet written](level07.md) |
+| 8 → 9 | 🔒 [Not yet written](level08.md) |
+| 9 → 10 | 🔒 [Not yet written](level09.md) |
+| 10 → 11 | 🔒 [Not yet written](level10.md) |
+| 11 → 12 | 🔒 [Not yet written — ASLR bypass (per OTW hint)](level11.md) |
+| 12 → 13 | 🔒 [Not yet written](level12.md) |
+| 13 → 14 | 🔒 [Not yet written](level13.md) |
+| 14 → ? | 🔒 [Not yet written — third-party library code (per OTW hint)](level14.md) |
 
-> Note: Drifter's upper-level count isn't prominently documented on the OTW front page. Extend or trim this table as you confirm the live level range.
+> **Coverage note:** The only trusted external reference I could locate (avishai's CTF writeups) covers only level 0. The other level files don't exist yet — solving one of those levels and contributing a writeup would be very welcome. See [CLAUDE.md](../CLAUDE.md) for the writeup conventions.
+>
+> **Level count:** Drifter's upper bound isn't advertised on the OTW front page. Probing individual level URLs suggests levels 0, 5, 11, and 14 at least exist; levels 10, 13, 15 may or may not. Treat this table as a scaffold — extend or trim as you confirm the live level range.
 
 ## Disclaimer
 

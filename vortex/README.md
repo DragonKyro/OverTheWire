@@ -41,33 +41,35 @@ Read 4 × 4 bytes as unsigned ints (host byte order), sum them modulo 2³², sen
 
 | Level | Writeup |
 |------:|---------|
-| 0 → 1 | [🔒 Not yet written](level00.md) |
-| 1 → 2 | [🔒 Not yet written](level01.md) |
-| 2 → 3 | [🔒 Not yet written](level02.md) |
-| 3 → 4 | [🔒 Not yet written](level03.md) |
-| 4 → 5 | [🔒 Not yet written](level04.md) |
-| 5 → 6 | [🔒 Not yet written](level05.md) |
-| 6 → 7 | [🔒 Not yet written](level06.md) |
-| 7 → 8 | [🔒 Not yet written](level07.md) |
-| 8 → 9 | [🔒 Not yet written](level08.md) |
-| 9 → 10 | [🔒 Not yet written](level09.md) |
-| 10 → 11 | [🔒 Not yet written](level10.md) |
-| 11 → 12 | [🔒 Not yet written](level11.md) |
-| 12 → 13 | [🔒 Not yet written](level12.md) |
-| 13 → 14 | [🔒 Not yet written](level13.md) |
-| 14 → 15 | [🔒 Not yet written](level14.md) |
-| 15 → 16 | [🔒 Not yet written](level15.md) |
-| 16 → 17 | [🔒 Not yet written](level16.md) |
-| 17 → 18 | [🔒 Not yet written](level17.md) |
-| 18 → 19 | [🔒 Not yet written](level18.md) |
-| 19 → 20 | [🔒 Not yet written](level19.md) |
-| 20 → 21 | [🔒 Not yet written](level20.md) |
-| 21 → 22 | [🔒 Not yet written](level21.md) |
-| 22 → 23 | [🔒 Not yet written](level22.md) |
-| 23 → 24 | [🔒 Not yet written](level23.md) |
-| 24 → 25 | [🔒 Not yet written](level24.md) |
-| 25 → 26 | [🔒 Not yet written](level25.md) |
-| 26 → 27 | [🔒 Not yet written](level26.md) |
+| 0 → 1 | ✅ [TCP bootstrap: sum 4 × u32, send back u64](level00.md) |
+| 1 → 2 | ✅ [Stack overflow preserving a `\xca` sentinel](level01.md) |
+| 2 → 3 | ✅ [Setuid archiver as a read oracle](level02.md) |
+| 3 → 4 | ✅ [Overflow hits `atexit`/cleanup pointer](level03.md) |
+| 4 → 5 | ✅ [Format-string overwrites `exit@plt`](level04.md) |
+| 5 → 6 | ✅ [MD5 preimage brute force](level05.md) |
+| 6 → 7 | ✅ [`execv` command-path injection](level06.md) |
+| 7 → 8 | ✅ [Overflow behind a CRC32 input check](level07.md) |
+| 8 → 9 | ✅ [Overflow → `printf@plt` overwrite](level08.md) |
+| 9 → 10 | ✅ [Misdirection — password in `/var/mail/vortex9`](level09.md) |
+| 10 → 11 | ✅ [`rand()` seed brute force](level10.md) |
+| 11 → 12 | ✅ [Heap overflow → PLT rewrite](level11.md) |
+| 12 → 13 | ✅ [ROP → `printf@plt = system`, `%d` symlink in `PATH`](level12.md) |
+| 13 → 14 | ⚠️ [Stub — reference got stuck; `argc == 0` path](level13.md) |
+| 14 → 15 | 🔒 [Not yet written](level14.md) |
+| 15 → 16 | 🔒 [Not yet written](level15.md) |
+| 16 → 17 | 🔒 [Not yet written](level16.md) |
+| 17 → 18 | 🔒 [Not yet written](level17.md) |
+| 18 → 19 | 🔒 [Not yet written](level18.md) |
+| 19 → 20 | 🔒 [Not yet written](level19.md) |
+| 20 → 21 | 🔒 [Not yet written](level20.md) |
+| 21 → 22 | 🔒 [Not yet written](level21.md) |
+| 22 → 23 | 🔒 [Not yet written](level22.md) |
+| 23 → 24 | 🔒 [Not yet written](level23.md) |
+| 24 → 25 | 🔒 [Not yet written](level24.md) |
+| 25 → 26 | 🔒 [Not yet written](level25.md) |
+| 26 → 27 | 🔒 [Not yet written](level26.md) |
+
+> **Coverage note:** The trusted external reference (avishai) covers only levels 0–12 with full detail, level 13 as a partial / stuck stub. Levels 14–26 aren't covered anywhere I could fetch. If you solve one, please contribute a writeup per [CLAUDE.md](../CLAUDE.md).
 
 ## Disclaimer
 
