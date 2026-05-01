@@ -37,15 +37,15 @@ ssh utumno0@utumno.labs.overthewire.org -p 2227
 
 | Level | Writeup |
 |------:|---------|
-| 0 → 1 | [🔒 Not yet written](level00.md) |
-| 1 → 2 | [🔒 Not yet written](level01.md) |
-| 2 → 3 | [🔒 Not yet written](level02.md) |
-| 3 → 4 | [🔒 Not yet written](level03.md) |
-| 4 → 5 | [🔒 Not yet written](level04.md) |
-| 5 → 6 | [🔒 Not yet written](level05.md) |
-| 6 → 7 | [🔒 Not yet written](level06.md) |
-| 7 → 8 | [🔒 Not yet written](level07.md) |
-| 8 → 9 | [🔒 Not yet written](level08.md) |
+| 0 → 1 | ✅ [`LD_PRELOAD` / hook `puts` to leak memory](level00.md) |
+| 1 → 2 | ✅ [Symlink `code` → `/bin/sh`](level01.md) |
+| 2 → 3 | ✅ [`execve` with argc=0 + env-var payload](level02.md) |
+| 3 → 4 | ✅ [Arbitrary-write primitive via XOR'd pairs](level03.md) |
+| 4 → 5 | ✅ [16-bit integer truncation → huge overflow](level04.md) |
+| 5 → 6 | ✅ [Same env-var / `execve` pattern as level 2](level05.md) |
+| 6 → 7 | ✅ [`strtoul("-1")` sign confusion drives arbitrary write](level06.md) |
+| 7 → 8 | ✅ [Overflow across `setjmp`/`longjmp` + byte brute-force](level07.md) |
+| 8 → 9 | ⚠️ [Stub only — no trusted reference available](level08.md) |
 
 ## Disclaimer
 
