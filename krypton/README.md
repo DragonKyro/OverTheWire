@@ -43,13 +43,13 @@ ssh krypton1@krypton.labs.overthewire.org -p 2231
 
 | Level | Writeup |
 |------:|---------|
-| 0 → 1 | [🔒 Not yet written](level00.md) |
-| 1 → 2 | [🔒 Not yet written](level01.md) |
-| 2 → 3 | [🔒 Not yet written](level02.md) |
-| 3 → 4 | [🔒 Not yet written](level03.md) |
-| 4 → 5 | [🔒 Not yet written](level04.md) |
-| 5 → 6 | [🔒 Not yet written](level05.md) |
-| 6 → 7 | [🔒 Not yet written](level06.md) |
+| 0 → 1 | ✅ [Base64 decode on the OTW page](level00.md) |
+| 1 → 2 | ✅ [ROT13 with `tr`](level01.md) |
+| 2 → 3 | ✅ [Caesar cipher — brute-force 26 shifts](level02.md) |
+| 3 → 4 | ✅ [Monoalphabetic substitution + frequency analysis](level03.md) |
+| 4 → 5 | ✅ [Vigenère with known key length (6)](level04.md) |
+| 5 → 6 | ✅ [Vigenère with unknown key length (Kasiski)](level05.md) |
+| 6 → 7 | ✅ [Stream cipher known-plaintext attack](level06.md) |
 
 ## Disclaimer
 

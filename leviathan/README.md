@@ -35,13 +35,13 @@ ssh leviathan0@leviathan.labs.overthewire.org -p 2223
 
 | Level | Writeup |
 |------:|---------|
-| 0 → 1 | [🔒 Not yet written](level00.md) |
-| 1 → 2 | [🔒 Not yet written](level01.md) |
-| 2 → 3 | [🔒 Not yet written](level02.md) |
-| 3 → 4 | [🔒 Not yet written](level03.md) |
-| 4 → 5 | [🔒 Not yet written](level04.md) |
-| 5 → 6 | [🔒 Not yet written](level05.md) |
-| 6 → 7 | [🔒 Not yet written](level06.md) |
+| 0 → 1 | ✅ [Hidden `.backup` dir, `grep` an HTML file](level00.md) |
+| 1 → 2 | ✅ [`ltrace` reveals `strcmp` password](level01.md) |
+| 2 → 3 | ✅ [Filename with space + symlink tricks `system()`](level02.md) |
+| 3 → 4 | ✅ [`ltrace` again — same trick as level 1](level03.md) |
+| 4 → 5 | ✅ [Binary digits → ASCII with `perl pack "B*"`](level04.md) |
+| 5 → 6 | ✅ [Symlink `/tmp/file.log` → password file](level05.md) |
+| 6 → 7 | ✅ [Brute-force a 4-digit PIN](level06.md) |
 
 ## Disclaimer
 
