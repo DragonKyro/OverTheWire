@@ -43,40 +43,40 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 | Level | Writeup |
 |------:|---------|
-| 0 → 1 | [🔒 Not yet written](level00.md) |
-| 1 → 2 | [🔒 Not yet written](level01.md) |
-| 2 → 3 | [🔒 Not yet written](level02.md) |
-| 3 → 4 | [🔒 Not yet written](level03.md) |
-| 4 → 5 | [🔒 Not yet written](level04.md) |
-| 5 → 6 | [🔒 Not yet written](level05.md) |
-| 6 → 7 | [🔒 Not yet written](level06.md) |
-| 7 → 8 | [🔒 Not yet written](level07.md) |
-| 8 → 9 | [🔒 Not yet written](level08.md) |
-| 9 → 10 | [🔒 Not yet written](level09.md) |
-| 10 → 11 | [🔒 Not yet written](level10.md) |
-| 11 → 12 | [🔒 Not yet written](level11.md) |
-| 12 → 13 | [🔒 Not yet written](level12.md) |
-| 13 → 14 | [🔒 Not yet written](level13.md) |
-| 14 → 15 | [🔒 Not yet written](level14.md) |
-| 15 → 16 | [🔒 Not yet written](level15.md) |
-| 16 → 17 | [🔒 Not yet written](level16.md) |
-| 17 → 18 | [🔒 Not yet written](level17.md) |
-| 18 → 19 | [🔒 Not yet written](level18.md) |
-| 19 → 20 | [🔒 Not yet written](level19.md) |
-| 20 → 21 | [🔒 Not yet written](level20.md) |
-| 21 → 22 | [🔒 Not yet written](level21.md) |
-| 22 → 23 | [🔒 Not yet written](level22.md) |
-| 23 → 24 | [🔒 Not yet written](level23.md) |
-| 24 → 25 | [🔒 Not yet written](level24.md) |
-| 25 → 26 | [🔒 Not yet written](level25.md) |
-| 26 → 27 | [🔒 Not yet written](level26.md) |
-| 27 → 28 | [🔒 Not yet written](level27.md) |
-| 28 → 29 | [🔒 Not yet written](level28.md) |
-| 29 → 30 | [🔒 Not yet written](level29.md) |
-| 30 → 31 | [🔒 Not yet written](level30.md) |
-| 31 → 32 | [🔒 Not yet written](level31.md) |
-| 32 → 33 | [🔒 Not yet written](level32.md) |
-| 33 → 34 | [🔒 Not yet written](level33.md) |
+| 0 → 1 | ✅ [SSH basics, reading a file](level00.md) |
+| 1 → 2 | ✅ [Files named `-`](level01.md) |
+| 2 → 3 | ✅ [Filenames with spaces](level02.md) |
+| 3 → 4 | ✅ [Hidden (dot) files](level03.md) |
+| 4 → 5 | ✅ [Text vs binary with `file`](level04.md) |
+| 5 → 6 | ✅ [`find` by size and permission](level05.md) |
+| 6 → 7 | ✅ [`find` by user, group, size](level06.md) |
+| 7 → 8 | ✅ [`grep` for a keyword](level07.md) |
+| 8 → 9 | ✅ [`sort` \| `uniq -u`](level08.md) |
+| 9 → 10 | ✅ [`strings` for readable data](level09.md) |
+| 10 → 11 | ✅ [`base64 -d`](level10.md) |
+| 11 → 12 | ✅ [ROT13 with `tr`](level11.md) |
+| 12 → 13 | ✅ [`xxd -r` + multi-layer decompress](level12.md) |
+| 13 → 14 | ✅ [SSH private key login](level13.md) |
+| 14 → 15 | ✅ [Netcat to a local port](level14.md) |
+| 15 → 16 | ✅ [`openssl s_client` for SSL](level15.md) |
+| 16 → 17 | ✅ [`nmap` scan + SSL probe](level16.md) |
+| 17 → 18 | ✅ [`diff` two files](level17.md) |
+| 18 → 19 | ✅ [Hostile `.bashrc` — remote command](level18.md) |
+| 19 → 20 | ✅ [Setuid helper (`bandit20-do`)](level19.md) |
+| 20 → 21 | ✅ [`nc -l` listener + `suconnect`](level20.md) |
+| 21 → 22 | ✅ [Reading a cron script](level21.md) |
+| 22 → 23 | ✅ [Cron with dynamic md5 filename](level22.md) |
+| 23 → 24 | ✅ [Drop a script into a cron spool](level23.md) |
+| 24 → 25 | ✅ [Brute-force a 4-digit pin](level24.md) |
+| 25 → 26 | ✅ [Escape `more` via vim `:shell`](level25.md) |
+| 26 → 27 | ✅ [Setuid helper again (`bandit27-do`)](level26.md) |
+| 27 → 28 | ✅ [Git clone and read README](level27.md) |
+| 28 → 29 | ✅ [Git history leaks a secret](level28.md) |
+| 29 → 30 | ✅ [Git branches](level29.md) |
+| 30 → 31 | ✅ [Git tags](level30.md) |
+| 31 → 32 | ✅ [Git push with `git add -f`](level31.md) |
+| 32 → 33 | ✅ [Uppercase shell — use `$0`](level32.md) |
+| 33 → 34 | ✅ [Game end — level 34 not yet released](level33.md) |
 
 ## Disclaimer
 
