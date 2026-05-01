@@ -3,7 +3,8 @@
     "allow": [
       "WebFetch(domain:overthewire.org)",
       "WebSearch",
-      "WebFetch(domain:axcheron.github.io)"
+      "WebFetch(domain:axcheron.github.io)",
+      "WebFetch(domain:avishaigonen123.github.io)"
     ]
   }
 }

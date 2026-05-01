@@ -35,12 +35,12 @@ ssh manpage0@manpage.labs.overthewire.org -p 2224
 
 | Level | Writeup |
 |------:|---------|
-| 0 → 1 | [🔒 Not yet written](level00.md) |
-| 1 → 2 | [🔒 Not yet written](level01.md) |
-| 2 → 3 | [🔒 Not yet written](level02.md) |
-| 3 → 4 | [🔒 Not yet written](level03.md) |
-| 4 → 5 | [🔒 Not yet written](level04.md) |
-| 5 → 6 | [🔒 Not yet written](level05.md) |
+| 0 → 1 | ✅ [Stack overflow + env-var shellcode](level00.md) |
+| 1 → 2 | ✅ [Same recipe as level 0 on a different binary](level01.md) |
+| 2 → 3 | ✅ [Inherited file descriptor across `execv`](level02.md) |
+| 3 → 4 | ⚠️ [EOF / empty-input bypass + reset loop](level03.md) |
+| 4 → 5 | ✅ [Stack overflow hidden inside a Wumpus game](level04.md) |
+| 5 → 6 | ⚠️ [Stub only — reference didn't solve this level](level05.md) |
 
 ## Disclaimer
 
