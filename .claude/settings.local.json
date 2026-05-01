@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:overthewire.org)",
-      "WebSearch"
+      "WebSearch",
+      "WebFetch(domain:axcheron.github.io)"
     ]
   }
 }

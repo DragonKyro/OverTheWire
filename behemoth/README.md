@@ -37,14 +37,14 @@ ssh behemoth0@behemoth.labs.overthewire.org -p 2221
 
 | Level | Writeup |
 |------:|---------|
-| 0 → 1 | [🔒 Not yet written](level00.md) |
-| 1 → 2 | [🔒 Not yet written](level01.md) |
-| 2 → 3 | [🔒 Not yet written](level02.md) |
-| 3 → 4 | [🔒 Not yet written](level03.md) |
-| 4 → 5 | [🔒 Not yet written](level04.md) |
-| 5 → 6 | [🔒 Not yet written](level05.md) |
-| 6 → 7 | [🔒 Not yet written](level06.md) |
-| 7 → 8 | [🔒 Not yet written](level07.md) |
+| 0 → 1 | ✅ [`ltrace` reveals `strcmp` password](level00.md) |
+| 1 → 2 | ✅ [Stack overflow, shellcode in env var](level01.md) |
+| 2 → 3 | ✅ [PATH hijack on `system("touch …")`](level02.md) |
+| 3 → 4 | ✅ [Format-string GOT overwrite](level03.md) |
+| 4 → 5 | ✅ [TOCTOU race via SIGSTOP + symlink](level04.md) |
+| 5 → 6 | ✅ [UDP listener on port 1337](level05.md) |
+| 6 → 7 | ✅ [Custom shellcode prints "HelloKitty"](level06.md) |
+| 7 → 8 | ✅ [Overflow with NOP sled after return addr](level07.md) |
 
 ## Disclaimer
 
